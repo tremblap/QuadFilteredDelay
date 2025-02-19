@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>QuadFilteredDelay</string>
+	<key>CFBundleGetInfoString</key>
+	<string>QuadFilteredDelay v1.0.2 Copyright 2025 no-tv.org</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.no-tv.org.app.QuadFilteredDelay.AUv3</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>QuadFilteredDelay</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.2</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.2</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.14.0</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>AudioComponentBundle</key>
+			<string>com.org.no-tv.app.QuadFilteredDelay.AUv3Framework</string>
+			<key>AudioComponents</key>
+			<array>
+				<dict>
+					<key>description</key>
+					<string>QuadFilteredDelay</string>
+					<key>manufacturer</key>
+					<string>NOTV</string>
+					<key>name</key>
+					<string>no-tv.org: QuadFilteredDelay</string>
+					<key>sandboxSafe</key>
+					<true/>
+					<key>subtype</key>
+					<string>3khs</string>
+					<key>tags</key>
+					<array>
+						<string>Effects</string>
+					</array>
+					<key>type</key>
+					<string>aufx</string>
+					<key>version</key>
+					<integer>65538</integer>
+				</dict>
+			</array>
+		</dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.AudioUnit-UI</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>IPlugAUViewController_vQuadFilteredDelay</string>
+	</dict>
+</dict>
+</plist>
